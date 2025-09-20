@@ -13,8 +13,11 @@ config_version=5
 config/name="UNNAMED"
 config/version="0.0.0"
 run/main_scene="res://gameMaster/bootLoader.tscn"
-config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://gameMaster/icon.png"
+config/features=PackedStringArray("4.5", "Forward Plus")
+boot_splash/show_image=false
+boot_splash/fullsize=false
+boot_splash/use_filter=false
+config/icon="uid://d1vxcg8icggry"
 
 [display]
 
@@ -24,18 +27,6 @@ window/size/viewport_height=720
 [dotnet]
 
 project/assembly_name="Echo Rat"
-
-[file_customization]
-
-folder_colors={
-"res://Audio/": "orange",
-"res://Characters/": "orange",
-"res://Enviroment/": "orange",
-"res://Enviroment/Scenes/": "orange",
-"res://Graphics/": "orange",
-"res://Objects/": "orange",
-"res://Videos/": "orange"
-}
 
 [rendering]
 
