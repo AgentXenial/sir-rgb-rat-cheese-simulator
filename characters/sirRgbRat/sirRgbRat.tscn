@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://csb36lur21fej"]
+
+[ext_resource type="Shape2D" uid="uid://ckghd5okjre3t" path="res://characters/sirRgbRat/sirRgbRatHitBox.tres" id="1_6ja0v"]
+[ext_resource type="Script" uid="uid://bj6jykvkqboeb" path="res://characters/sirRgbRat/sirRgbRat.gd" id="1_ir7lu"]
+[ext_resource type="Texture2D" uid="uid://dijk110rvp4ui" path="res://characters/sirRgbRat/sirRgbRatBySammyCadian.png" id="2_ir7lu"]
+
+[node name="sirRgbRat" type="CharacterBody2D"]
+script = ExtResource("1_ir7lu")
+
+[node name="sirRgbRatHitBox" type="CollisionShape2D" parent="."]
+position = Vector2(-4, -0.5)
+shape = ExtResource("1_6ja0v")
+
+[node name="sirRgbRatSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_ir7lu")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)

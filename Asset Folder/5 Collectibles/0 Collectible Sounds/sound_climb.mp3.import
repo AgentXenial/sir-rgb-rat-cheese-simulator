@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://brwo86713gavk"
+path="res://.godot/imported/sound_climb.mp3-fc1b25f3c8508c65417fb576b62d94b1.mp3str"
+
+[deps]
+
+source_file="res://Asset Folder/5 Collectibles/0 Collectible Sounds/sound_climb.mp3"
+dest_files=["res://.godot/imported/sound_climb.mp3-fc1b25f3c8508c65417fb576b62d94b1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
