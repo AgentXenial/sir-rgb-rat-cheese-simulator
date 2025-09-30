@@ -9,5 +9,8 @@ func _ready() -> void:
 
 
 func _on_sir_rgb_rat_pressed() -> void:
-	cheese+=1
-	text = "CHEESE GIVEN: " + str(cheese)
+	if cheese<9999999999999999:
+		cheese+=1
+		text = "CHEESE GIVEN: " + str(cheese)
+	else:
+		text = "CHEESE GIVEN: OVERFLOW!!!"

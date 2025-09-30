@@ -5,7 +5,7 @@ var mute:bool=false
 
 
 func _ready() -> void:
-	text = "Press M to mute: [color=green]UNMUTED[/color]\nProgrammer: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprite Work: [url=https://sammycadian.itch.io]SammyCadian[/url]\nSound: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
+	text = "Press M to mute: [color=green]UNMUTED[/color]\nCode: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprites: [url=https://sammycadian.itch.io]SammyCadian[/url]\nAudio: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
 
 
 func _on_meta_clicked(meta: Variant) -> void:
@@ -17,6 +17,6 @@ func _input(_event: InputEvent) -> void:
 		mute = !mute
 		
 		if (mute):
-			text = "Press M to mute: [color=red]MUTED[/color]\nProgrammer: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprite Work: [url=https://sammycadian.itch.io]SammyCadian[/url]\nSound: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
+			text = "Press M to mute: [color=red]MUTED[/color]\nCode: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprites: [url=https://sammycadian.itch.io]SammyCadian[/url]\nAudio: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
 		else:
-			text = "Press M to mute: [color=green]UNMUTED[/color]\nProgrammer: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprite Work: [url=https://sammycadian.itch.io]SammyCadian[/url]\nSound: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
+			text = "Press M to mute: [color=green]UNMUTED[/color]\nCode: [url=https://patreon.com/infinityax]Agent Xenial[/url]\nSprites: [url=https://sammycadian.itch.io]SammyCadian[/url]\nAudio: [url=https://www.myinstants.com/en/instant/cheese-james-may-10207]James May[/url]"
