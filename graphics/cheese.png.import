@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx2oe7c8uuts5"
-path="res://.godot/imported/sirRgbRatGiga.png-722df9063cb6ea3281241eb01f713f05.ctex"
+uid="uid://bpcr4jleb7bnw"
+path="res://.godot/imported/cheese.png-2d5776f9faa1500e31181e1d6b2e962a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sirRgbRatGiga.png"
-dest_files=["res://.godot/imported/sirRgbRatGiga.png-722df9063cb6ea3281241eb01f713f05.ctex"]
+source_file="res://graphics/cheese.png"
+dest_files=["res://.godot/imported/cheese.png-2d5776f9faa1500e31181e1d6b2e962a.ctex"]
 
 [params]
 
