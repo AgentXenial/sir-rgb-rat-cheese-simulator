@@ -1,9 +1,9 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: Feature Request
+about: Suggest an idea for the game.
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: AgentXenial
 
 ---
 
@@ -14,7 +14,7 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 A clear and concise description of what you want to happen.
 
 **Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+I'd appreciate it if you could give me a clear and concise description of any alternative solutions or features you've considered.
 
 **Additional context**
-Add any other context or screenshots about the feature request here.
+Please feel free to add any additional context or screenshots related to the feature request here.
