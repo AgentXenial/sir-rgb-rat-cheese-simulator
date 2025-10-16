@@ -32,18 +32,12 @@ func _on_sir_rgb_rat_pressed() -> void:
 		else:
 			cheeseScoreText.text = "CHEESE GIVEN: " + str(cheese)
 		# max cheese 9999999999999999
-		
+	
 	if (!mute):
 		sirRgbRatSound.play()
-		
+	
 	sirRgbRatAnimations.stop()
 	sirRgbRatAnimations.play("animations/squish")
-
-
-func _input(_event: InputEvent) -> void:
-	if Input.is_action_just_pressed("shutTheFuckUp"):
-		sirRgbRatSound.stop()
-		mute = !mute
 
 
 func _on_mute_button_pressed() -> void:
