@@ -1,12 +1,13 @@
-[gd_scene load_steps=8 format=3 uid="uid://r1pjr82eu0ew"]
+[gd_scene load_steps=9 format=3 uid="uid://r1pjr82eu0ew"]
 
-[ext_resource type="Script" uid="uid://dfv4vellj1hhj" path="res://scripts/game.gd" id="1_k54sp"]
+[ext_resource type="Script" uid="uid://dfv4vellj1hhj" path="res://game.gd" id="1_k54sp"]
 [ext_resource type="Texture2D" uid="uid://bfuh7v8q4sh1g" path="res://graphics/exitButton.png" id="2_2l3p0"]
+[ext_resource type="Texture2D" uid="uid://celyvtyn45bm8" path="res://graphics/mute.png" id="3_8np0u"]
+[ext_resource type="Texture2D" uid="uid://cmh5cb0biuqqg" path="res://graphics/play.png" id="3_82osu"]
 [ext_resource type="Texture2D" uid="uid://bpcr4jleb7bnw" path="res://graphics/cheese.png" id="4_8np0u"]
 [ext_resource type="AudioStream" uid="uid://btkmgdvjn5asx" path="res://cheese.wav" id="4_82osu"]
 [ext_resource type="AnimationLibrary" uid="uid://cqi3k5x242y8q" path="res://animations/animations.res" id="6_82osu"]
 [ext_resource type="Texture2D" uid="uid://b2836kuy2x73w" path="res://graphics/sirRgbRat.png" id="8_fw2ks"]
-[ext_resource type="Script" uid="uid://qvmqhhb85b50" path="res://scripts/creditsUrlOpen.gd" id="10_fw2ks"]
 
 [node name="gameMaster" type="Node" node_paths=PackedStringArray("sirRgbRatAnimations", "sirRgbRatSound", "cheeseScoreText")]
 script = ExtResource("1_k54sp")
@@ -27,6 +28,19 @@ offset_bottom = -20.0
 grow_horizontal = 0
 grow_vertical = 0
 texture_normal = ExtResource("2_2l3p0")
+
+[node name="muteButton" type="TextureButton" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -71.0
+offset_right = 165.0
+offset_bottom = -20.0
+grow_vertical = 0
+toggle_mode = true
+texture_normal = ExtResource("3_82osu")
+texture_pressed = ExtResource("3_8np0u")
 
 [node name="score" type="Label" parent="."]
 offset_left = 176.0
@@ -65,28 +79,9 @@ texture_normal = ExtResource("8_fw2ks")
 texture = ExtResource("4_8np0u")
 offset = Vector2(88, 52)
 
-[node name="muteStateAndCredits" type="RichTextLabel" parent="."]
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_left = 20.0
-offset_top = -102.0
-offset_right = 230.0
-offset_bottom = -10.0
-grow_vertical = 0
-pivot_offset = Vector2(0, 92)
-bbcode_enabled = true
-fit_content = true
-scroll_active = false
-autowrap_mode = 0
-shortcut_keys_enabled = false
-vertical_alignment = 2
-drag_and_drop_selection_enabled = false
-script = ExtResource("10_fw2ks")
-
 [connection signal="pressed" from="exitButton" to="." method="_on_exit_button_pressed"]
+[connection signal="pressed" from="muteButton" to="." method="_on_mute_button_pressed"]
 [connection signal="pressed" from="score/squishy/sirRgbRat" to="." method="_on_sir_rgb_rat_pressed"]
 [connection signal="pressed" from="score/squishy/sirRgbRat" to="score" method="_on_sir_rgb_rat_pressed"]
 [connection signal="pressed" from="score/squishy/sirRgbRat" to="score/cheeseSound" method="_on_sir_rgb_rat_pressed"]
 [connection signal="pressed" from="score/squishy/sirRgbRat" to="score/squishy" method="_on_sir_rgb_rat_pressed"]
-[connection signal="meta_clicked" from="muteStateAndCredits" to="muteStateAndCredits" method="_on_meta_clicked"]

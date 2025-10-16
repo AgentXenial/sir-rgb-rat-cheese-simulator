@@ -44,3 +44,8 @@ func _input(_event: InputEvent) -> void:
 	if Input.is_action_just_pressed("shutTheFuckUp"):
 		sirRgbRatSound.stop()
 		mute = !mute
+
+
+func _on_mute_button_pressed() -> void:
+	sirRgbRatSound.stop()
+	mute = !mute
