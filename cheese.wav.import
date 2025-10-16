@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://btkmgdvjn5asx"
-path="res://.godot/imported/cheese.wav-435fc01f9ba40950a02bbd5c7d2ed06d.sample"
+path="res://.godot/imported/cheese.wav-e295a2afa7a4ff6aa8c6ec1ae25ede70.sample"
 
 [deps]
 
-source_file="res://sounds/cheese.wav"
-dest_files=["res://.godot/imported/cheese.wav-435fc01f9ba40950a02bbd5c7d2ed06d.sample"]
+source_file="res://cheese.wav"
+dest_files=["res://.godot/imported/cheese.wav-e295a2afa7a4ff6aa8c6ec1ae25ede70.sample"]
 
 [params]
 

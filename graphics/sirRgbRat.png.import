@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dx2oe7c8uuts5"
-path="res://.godot/imported/sirRgbRatGiga.png-4cbad52c79559118dcfdc7dab196137a.ctex"
+uid="uid://b2836kuy2x73w"
+path="res://.godot/imported/sirRgbRat.png-46ca9686e35b309df9a1b5dd1dc93933.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://graphics/sirRgbRatGiga.png"
-dest_files=["res://.godot/imported/sirRgbRatGiga.png-4cbad52c79559118dcfdc7dab196137a.ctex"]
+source_file="res://graphics/sirRgbRat.png"
+dest_files=["res://.godot/imported/sirRgbRat.png-46ca9686e35b309df9a1b5dd1dc93933.ctex"]
 
 [params]
 
