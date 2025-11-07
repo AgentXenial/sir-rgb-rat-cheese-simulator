@@ -5,9 +5,12 @@ Sir RGB Rat wants cheese. He demands that you give him cheese. Give as many chee
 ## Credits
 - Code: Agent Xenial
 - Sprites: [SammyCadian](https://sammycadian.itch.io)
-- Audio: [James May](https://www.myinstants.com/en/instant/cheese-james-may-10207)
+- Audio: James May
 ## Software Used
 - [Audacity](https://v2-audacity.com)
 - [Ghostwriter](https://ghostwriter.kde.org)
 - [GoDot 4.5+](https://godotengine.org)
 - [Krita](https://krita.org)
+## Notes
+1. I am unable to find the original audio source for the "Cheese" sound effect. I was only able to locate the creator's name.
+2. The Unlicense license only applies to the source code. You may not use images and audio assets for commercial purposes unless permitted by the creators listed in the **Credits** section.
